@@ -7,12 +7,12 @@ function vd()
     var age=document.getElementById('age').value;
     if(name=='' || prof=='' || age=='')
     {
-        document.getElementById('error').innerText='Error : Please Makes Your All The Fields are Field';
+        document.getElementById('error').innerText='Error : Please Make sure All the fields are filled before adding in an employee !';
         document.getElementById('error').className='text-danger';
     }
     else
     {
-        document.getElementById('error').innerText='Error : Please Makes Your All The Fields are Field';
+        document.getElementById('error').innerText='Success : Employee Added!';
         i++;
         document.getElementById('error').className='text-success';
         var tb=document.getElementById('user_holder');
